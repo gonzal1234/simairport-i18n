@@ -211,11 +211,11 @@
             <description>Haz felices a los pasajeros dandoles un lugar donde descansar confortablemente.</description>
         </BenchB>
         <BenchB-2Seat>
-            <name>Banco B - 2 Seat</name>
+            <name>Banco B - 2 Asientos</name>
             <description>Haz felices a los pasajeros dandoles un lugar donde descansar confortablemente.</description>
         </BenchB-2Seat>
         <BenchB-3Seat>
-            <name>Banco B - 3 Seat</name>
+            <name>Banco B - 3 Asientos</name>
             <description>Haz felices a los pasajeros dandoles un lugar donde descansar confortablemente.</description>
         </BenchB-3Seat>
         <BenchC>
@@ -223,11 +223,11 @@
             <description>Haz felices a los pasajeros dandoles un lugar donde descansar confortablemente.</description>
         </BenchC>
         <BenchC-2Seat>
-            <name>Banco C - 2 Seat</name>
+            <name>Banco C - 2 Asientos</name>
             <description>Haz felices a los pasajeros dandoles un lugar donde descansar confortablemente.</description>
         </BenchC-2Seat>
         <BenchC-3Seat>
-            <name>Banco C - 3 Seat</name>
+            <name>Banco C - 3 Asientos</name>
             <description>Haz felices a los pasajeros dandoles un lugar donde descansar confortablemente.</description>
         </BenchC-3Seat>
         <BodyScanner>
@@ -495,38 +495,38 @@
             <description>La megafonia proporciona anuncios, llamadas de embarque e informacion de ultimo minuto. Previene la perdida de vuelos, aunque tambien puede molestar un poco!  Este es un altavoz bidireccional que transmite dos "conos de sonido" that broadcasts two "conos de sonido" dn direcciones opuestas.</description>
         </PASpeaker2-Way>
         <PhoneChargerStation>
-            <name>Phone Charger Station</name>
-            <description>Pax phones left with only 5% after the latest software update?  This is what they need!
+            <name>Esracion de carga de telefonos</name>
+            <description>La bateria de los telefonos estan solo al 5% despues de la ultima actualizacion de software?, esto es lo que necesitan!
 
-        Helps passengers avoid boredom and frustration, but is also costly to run &amp; to maintain.</description>
+        Ayuda a los pasajeros a evitar el aburrimiento y la frustacion and frustration, pero tambien genera gastos de mantenimiento.</description>
         </PhoneChargerStation>
         <PizzaJoint>
             <name>Pizza Joint</name>
-            <description>New York Style pizza, yum!</description>
+            <description>Pizza estilo neoyorquino, yum!</description>
         </PizzaJoint>
         <PizzaOven>
-            <name>Pizza Oven</name>
-            <description>Prepares Pizza and expands your kitchen's food capabilities.</description>
+            <name>Horno de pizzas</name>
+            <description>Prepara pizza y expande las capacidades de comida de tu cocina.</description>
         </PizzaOven>
         <Plant1>
-            <name>Plant 1</name>
-            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+            <name>Planta 1</name>
+            <description>Una bonita planta decorativa. Algunos pasajeros apreciaran la atencion al detalle y mejorara su experiencia en el aeropuerto.</description>
         </Plant1>
         <Plant2>
-            <name>Plant 2</name>
-            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+            <name>Planta 2</name>
+            <description>Una bonita planta decorativa. Algunos pasajeros apreciaran la atencion al detalle y mejorara su experiencia en el aeropuerto.</description>
         </Plant2>
         <Plant3>
-            <name>Plant 3</name>
-            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+            <name>Planta 3</name>
+            <description>Una bonita planta decorativa. Algunos pasajeros apreciaran la atencion al detalle y mejorara su experiencia en el aeropuerto.</description>
         </Plant3>
         <PrepCart>
             <name>Prep Cart</name>
             <description>Food Workers use this as a workspace to prepare &amp; fulfill food orders.  Has enough space to fulfill 1 order at a time.</description>
         </PrepCart>
         <Refrigerator>
-            <name>Refrigerator</name>
-            <description>Adds Pizza to kitchen capabilities.</description>
+            <name>Frigorifico</name>
+            <description>Aniade pizza a la cocina.</description>
         </Refrigerator>
         <RemoteBagScanner>
             <name>Remote Bag Scanner</name>
@@ -680,7 +680,7 @@
         </ArcadeDriver>
 
         <ArcadeRetro>
-            <name>Arcade Retro Game</name>
+            <name>Maquina arcade retro</name>
             <description>A blast from the past!  Pax need to keep away from the ghostly monsters, until they start blinking!  A good time for all involved.</description>
         </ArcadeRetro>
 
@@ -690,7 +690,7 @@
         </ArcadeBlaster>
 
         <ArcadePinball>
-            <name>Arcade Pinball Game</name>
+            <name>Maquina pinball</name>
             <description>Pax will be nostalgic over this gem!</description>
         </ArcadePinball>
 
