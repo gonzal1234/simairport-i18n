@@ -399,44 +399,44 @@
             <description>Hace felices a los pasajeros mientras ganas 5$ por transaccion.</description>
         </FoodVending>
         <FountainDisplay>
-            <name>Fountain Display</name>
-            <description>A beautiful and artistic water display that will improve the appearance and environment of your airport.</description>
+            <name>Fuente de exibicion</name>
+            <description>Una bonita y artistica fuente de exibicion acuatica que mejora la apariencia y el entorno de tu aeropuerto.</description>
         </FountainDisplay>
         <FountainDisplayB>
-            <name>Fountain Display B</name>
-            <description>An elegant water fountain that improves the ambience of your airport.</description>
+            <name>Fuente de exibicion B</name>
+            <description>Una elegante fuente de agua que mejora el ambiente de tu aeropuerto.</description>
         </FountainDisplayB>
         <GarbageBin>
-            <name>Garbage Bin</name>
-            <description>Passengers will (sometimes) put their trash in here.  Janitors will empty full trash cans regularly.  Place these liberally, no one likes a dirty airport.</description>
+            <name>Cubo de basura</name>
+            <description>Los pasajeros depositaran aqui( en ocasiones)  su basura. Los conserjes vaciaran los cubos llenos con regularidad, Coloquelos generosamente, a nadie le gusta un aeropuerto sucio.</description>
         </GarbageBin>
         <GateAgentDesk>
-            <name>Gate Agent Desk</name>
-            <description>Used by Passengers &amp; Staff to coordinate the boarding &amp; deboarding of aircraft in your airport.  Each Aircraft Gate requires one.</description>
+            <name>Escritorio de agente de puerta de embarque</name>
+            <description>Usados por pasajeros y personal to para coordinar el embarque y desembarque del avion en tu aeropuerto. Cada puerta de embarque requiere de una.</description>
         </GateAgentDesk>
         <HealthFoodKiosk>
-            <name>Health Food Kiosk</name>
+            <name>Quiosco de comida saludable</name>
             <description></description>
         </HealthFoodKiosk>
         <HolidayTree>
-            <name>Holiday Tree</name>
-            <description>A very nice touch.  It almost looks like a Christmas tree, but it's in season all year around.  Passengers often appreciate these kinds of things.</description>
+            <name>Arbol de navidad</name>
+            <description>Un toque muy agradable. Casi parece un arbol de Navidad, pero esta en temporada todo el anio. Los pasajeros suelen apreciar este tipo de cosas.</description>
         </HolidayTree>
         <IDCheckStand>
-            <name>ID Check Stand</name>
-            <description>Placed in the Security Zone, this is the first step of the Security process for your passengers.</description>
+            <name>Stand de verificacion de ID</name>
+            <description>Situado en la zona de seguridad, este es el primer paso en el proceso de seguridad para los pasajeros.</description>
         </IDCheckStand>
         <KitchenSink>
-            <name>Kitchen Sink</name>
-            <description>Used to support a sanitary, fully-operational kitchen.</description>
+            <name>Fregadero</name>
+            <description>Usado para una higienica y totalmente operativa cocinda.</description>
         </KitchenSink>
         <KitchenStorage>
-            <name>Kitchen Storage</name>
-            <description>Adds Crisps and Donuts to kitchen capabilities.</description>
+            <name>Almacenamiento de cocina</name>
+            <description>Aniade Crispsis y Donuts a la cocinda.</description>
         </KitchenStorage>
         <LargeHangar>
-            <name>Large Hangar</name>
-            <description>A large hangar with up to 5 vehicle spots.</description>
+            <name>Hangar grande</name>
+            <description>Un gran hangar con capacidad para 5 vehiculos.</description>
         </LargeHangar>
         <LargeSlidingDoor>
             <name>Large Sliding Door</name>
@@ -447,52 +447,52 @@
             <description>Enables light rail service to your airport, providing a destination hub for metro trains.</description>
         </LRTPlatform>
         <MediumHangar>
-            <name>Medium Hangar</name>
-            <description>A medium hangar with up to 3 vehicle spots.</description>
+            <name>Hangar mediano</name>
+            <description>Un hangar mediano con capacidad para 3 vehiculos.</description>
         </MediumHangar>
         <MetalDetector>
-            <name>Metal Detector</name>
-            <description>The mainstay of airport security worldwide, the metal detector allows you to quickly &amp; efficiently check pasengers for security threats &amp; contraband.</description>
+            <name>Detector de metales</name>
+            <description>El pilar de la seguridad aeroportuaria en todo el mundo, el detector de metales le permite rapidamente revisar de manera eficiente a los pasajeros en busca de amenazas de seguridad y contrabando.</description>
         </MetalDetector>
         <NewsStand>
-            <name>News Stand</name>
-            <description>Helps keep passengers entertained while earning you $5 per transaction in the process.</description>
+            <name>Puesto de pediodicos</name>
+            <description>Ayuda a los pasajeros a entretenerse mientras ganas 5$ por venta.</description>
         </NewsStand>
         <OfficeChair>
-            <name>Office Chair</name>
-            <description>Executives require offices to work and do research -- they also require a place to sit.  </description>
+            <name>Silla de oficina</name>
+            <description>Los ejecutivos requeren una silla para trabajar e investigar -- ellos tambien lo usan para sentarse.  </description>
         </OfficeChair>
         <OfficeDesk>
-            <name>Office Desk</name>
-            <description>A good desk is critical &amp; this one will allow your Execs to be able to accomplish their research.</description>
+            <name>Escritorio de oficina</name>
+            <description>Un buen escritorio es critico, esto permitira a tus ejecutivos completar sus investigaciones.</description>
         </OfficeDesk>
         <OutdoorFloodLight>
-            <name>Outdoor Flood Light</name>
+            <name>Luz de inundacion exterior</name>
             <description></description>
         </OutdoorFloodLight>
         <OutdoorGate>
-            <name>Outdoor Gate</name>
-            <description>A "door" but for the fences on the exterior of your airport.  Can be placed on top of roads.  Also preserves secure area division.</description>
+            <name>Puerta exterior</name>
+            <description>Una "puerta" pero para las cercas en el exterior de su aeropuerto. Puede ser colocado en la parte superior de las carreteras. Tambien mantiene el recinto seguro.</description>
         </OutdoorGate>
         <OutdoorPoleLight>
-            <name>Outdoor Pole Light</name>
+            <name>Poste de luz exterior</name>
             <description></description>
         </OutdoorPoleLight>
         <PAAmplifier>
-            <name>PA Amplifier</name>
-            <description>Public Address Systems provide announcements, boarding calls, and last-minute information.  Helps prevent missed flights, though too many announcements may annoy passengers a bit too!</description>
+            <name>PA Amplificador</name>
+            <description>La megafonia proporciona anuncios, llamadas de embarque e informacion de ultimo minuto. Previene la perdida de vuelos, aunque demasiados anuncios pueden molestar un poco a los pasajeros tambien!</description>
         </PAAmplifier>
         <PAAmplifierHD>
-            <name>PA Amplifier HD</name>
-            <description>Public Address Systems provide announcements, boarding calls, and last-minute information.  Helps prevent missed flights, though too many announcements may annoy passengers a bit too!  This HD version allows for more speakers &amp; gates, and has slightly better sound quality.</description>
+            <name>PA Amplificador HD</name>
+            <description>La megafonia proporciona anuncios, llamadas de embarque e informacion de ultimo minuto. Previene la perdida de vuelos, aunque demasiados anuncios pueden molestar un poco a los pasajeros tambien!  Esta version HD version permite mas altavoces y puertas, y tiene una considerale mejor calidad de sonido.</description>
         </PAAmplifierHD>
         <PASpeaker>
-            <name>PA Speaker</name>
-            <description>Public Address Systems provide announcements, boarding calls, and last-minute information.  Helps prevent missed flights, though may annoy pax a bit too!   Broadcasts a 'cone' of sound.</description>
+            <name>PA Altavoz</name>
+            <description>La megafonia proporciona anuncios, llamadas de embarque e informacion de ultimo minuto. Previene la perdida de vuelos, aunque tambien puede molestar un poco!, emite un "cono" de sonido.</description>
         </PASpeaker>
         <PASpeaker2-Way>
-            <name>PA Speaker 2-Way</name>
-            <description>Public Address Systems provide announcements, boarding calls, and last-minute information.  Helps prevent missed flights, though may annoy pax a bit too!  This is a bi-directional speaker that broadcasts two "cones of sound" in opposite directions.</description>
+            <name>PA Altavoz de 2 canales</name>
+            <description>La megafonia proporciona anuncios, llamadas de embarque e informacion de ultimo minuto. Previene la perdida de vuelos, aunque tambien puede molestar un poco!  Este es un altavoz bidireccional que transmite dos "conos de sonido" that broadcasts two "conos de sonido" dn direcciones opuestas.</description>
         </PASpeaker2-Way>
         <PhoneChargerStation>
             <name>Phone Charger Station</name>
@@ -625,9 +625,13 @@
             <name>Fuel Depot</name>
             <description>Receives jet fuel deliveries and distributes it to pipeline-connected reservoirs.</description>
         </FuelDepot>
+        <FuelingStation>
+            <name>Refuel Station</name>
+            <description>Provide your Fuel Trucks with access to the fuel in your networked storage tanks.  Allows refueling services to be offered by your airport.</description>
+        </FuelingStation>
         <FuelTank>
             <name>Fuel Tank</name>
-            <description>An outdoor jet fuel storage reservoir with a capacity of 172,000 liters. Used to support refueling operations.</description>
+            <description>An outdoor jet fuel storage reservoir with a capacity of 344,000 liters. Used to support refueling operations.</description>
         </FuelTank>
         <LargeFuelTank>
             <name>Large Fuel Tank</name>
