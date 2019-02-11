@@ -1,9 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+   <?xml version="1.0" encoding="utf-8"?>
 <UI>
     <currency>$</currency>
+	    
+    <!-- Top left buttons -->
     <btn_help>Ayuda</btn_help>
     <btn_menu>Menú</btn_menu>
     <LoadingBar>Cargando...</LoadingBar>
+	
     <i18n>
         <en>Ingles</en>
         <de>Alemán</de>
@@ -13,6 +16,7 @@
         <ru>Ruso</ru>
         <cs>Checo</cs>
     </i18n>
+	
     <modal>
         <EADialog>
             <btn_forums>Foros de discursion</btn_forums>
@@ -302,11 +306,11 @@ Esto borrara permanentemente tu juego salvado. ¿Estas SEGURO de querer borrar e
                 </kiosk>
                 <schedule>
                     <title>Programacion de personal</title>
-                    <workers>Maximum Workers</workers>
-                    <staff>Staff</staff>
-                    <dropdown0>Last Selected Object</dropdown0>
-                    <dropdown1>All Within Its Sector</dropdown1>
-                    <dropdown2>All</dropdown2>
+                    <workers>Trabajadore maximos</workers>
+                    <staff>Personal</staff>
+                    <dropdown0>Ultimo objeto seleccionado</dropdown0>
+                    <dropdown1>Todo dentro de su sector</dropdown1>
+                    <dropdown2>Todo</dropdown2>
                 </schedule>
             </tabs>
         </staff>
@@ -498,7 +502,7 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
                     <col>
                         <runway>Pista</runway>
                         <crosswind>Maximo viento cruzado</crosswind>
-                        <status>Status</status>
+                        <status>Estado</status>
                     </col>
                     <restrictions>Restricciones de pista</restrictions>
                     <restriction_arrival>Permite o no permite llegadas (aterrizajes) para esta pista</restriction_arrival>
@@ -650,7 +654,7 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
         </overlay_Information>
         <overlay_Sectors>
             <title>Visualizacion del sector</title>
-            <description>Visualice los 'sectores de su aeropuerto. ¡Esta herramienta tendra funciones adicionales en el futuro! =)</description>
+            <description>Visualice los sectores de su aeropuerto. ¡Esta herramienta tendra funciones adicionales en el futuro! =)</description>
         </overlay_Sectors>
         <overlay_PA>
             <title>Megafonia</title>
@@ -865,11 +869,11 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
             <Money>Dinero</Money>
             <Rest>Cansancio</Rest>
             <Hunger>Hambre</Hunger>
-            <Thirst>Thirst</Thirst>
+            <Thirst>Sed</Thirst>
         </needs>
         <queueType>
             <title>Cola</title>
-            <Coach>Autocar</Coach>
+            <Coach>Clase turista</Coach>
             <FirstClass>Primera clase</FirstClass>
             <FlightCrew>Personal de vuelo</FlightCrew>
         </queueType>
@@ -926,7 +930,7 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
         <fsm>
             <None>Ninguno</None>
             <Initializing>Inicializando</Initializing>
-            <Idle>Idle</Idle>
+            <Idle>Ocioso</Idle>
             <CheckNeeds>Verificacion</CheckNeeds>
             <LeaveAirport>Deja el aeropuerto</LeaveAirport>
             <GetBags>Coge equipaje</GetBags>
@@ -987,7 +991,7 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
             <Repair>Reparar ahora</Repair>
             <Dismantle>Desmantelar</Dismantle>
             <TroubleshootPath>Mostrar ruta no segura</TroubleshootPath>
-            <Schedule>Staff Scheduler</Schedule>
+            <Schedule>Programador de personal</Schedule>
         </inspect>
         <tooltip>
             <requirements>Requisitos no se cumplen</requirements>
@@ -1061,7 +1065,7 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
             <ZoneCapacity>La capacidad de la zona se puede aumentar al ampliar el area de la zona o al usar ciertos objetos de "almacenamiento" para aumentar la densidad permitida.</ZoneCapacity>
             <CountAssignments>{0} asignado</CountAssignments>
             <LateDepartureFCWarning>Noticia: Esperando al personal de vuelo para embarcar. Marca 'visualizar pasajeros' para ver por que.</LateDepartureFCWarning>
-            <InboundPax>Inbound Pax:</InboundPax>
+            <InboundPax>Pasajeros entrantes:</InboundPax>
         </tooltip>
         <functionality>
             <ReqGroundFloor>Requiere planta baja</ReqGroundFloor>
@@ -1094,7 +1098,7 @@ Cuanto cobra a las aerolineas por usar sus terminales, por pasajero.</terminalus
             <ReqFuelNetworkFuel>Conectado a tuberia de combustible, pero no hay tanques de combustible en la red</ReqFuelNetworkFuel>
             <ReqFuelNetworkDepot>Conectado a tuberia de combustible, pero no hay deposito de combustible en la red</ReqFuelNetworkDepot>
             <ReqAdjacentRoad>Requiere una carretera o calle de rodaje adyacente.</ReqAdjacentRoad>
-            <ReqProximityRoad>Debe estar adyacente a una carretera que pueda alcanzar puntos de spawn y despawn.</ReqProximityRoad>
+            <ReqProximityRoad>Debe estar adyacente a una carretera que pueda alcanzar puntos de aparicion y desaparicion.</ReqProximityRoad>
             <ReqProximityTaxiway>Requiere al menos una calle de rodaje conectada en ambos extremos..</ReqProximityTaxiway>
             <FuelTankProximityNoSegment>El tanque esta demasiado lejos de la carretera / calle de rodaje para ser directamente accesible por vehiculos.</FuelTankProximityNoSegment>
             <FuelTankProximityWithSegment>El tanque esta demasiado lejos de la carretera / calle de rodaje y solo los vehiculos pueden acceder a el indirectamente a traves de otros objetos en la misma tuberia de combustible subterranea.</FuelTankProximityWithSegment>
@@ -1278,8 +1282,8 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
             <description>Ayuda con el aburrimiento, ayuda a tener tus viajeros distraidos y entretenidos.</description>
         </Arcade>
         <Store>
-            <name>Store</name>
-            <description>Sell the latest (and most profitable) branded products. Passengers are happier when they're spending their money, and so are you!</description>
+            <name>Tienda</name>
+            <description>Vende los últimos (y los más rentables) productos de marca, los pasajeros son más felices cuando están gastando su dinero, ¡y usted también!.</description>
         </Store>
     </zones>
     <money>
@@ -1319,7 +1323,7 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
             <CancelResearch>Cancelar investigacion</CancelResearch>
             <Research>Investigacion</Research>
             <Maintenance>Mantenimiento</Maintenance>
-            <RetailIncomeUpdated>Retail Income</RetailIncomeUpdated>
+            <RetailIncomeUpdated>Ingresos al por menor</RetailIncomeUpdated>
         </reason>
         <category>
             <Bank>Banco</Bank>
@@ -1413,7 +1417,7 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
         <Yellow>Amarillo</Yellow>
         <Magenta>Magenta</Magenta>
         <White>Blanco</White>
-        <Cyan>Cyan</Cyan>
+        <Cyan>Cian</Cyan>
         <Taxiway>Calle de rodaje</Taxiway>
     </colors>
     <tools>
@@ -1441,7 +1445,7 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
         <AsphaltRunway>
             <name>pista de asfalto</name>
             <description>Haga clic y arrastre para crear (o extender una pista existente). Tenga en cuenta que extender o cruzar una pista existente requiere volver a crear toda la pista.</description>
-            <tt>Is Suitable For</tt>
+            <tt>Es adecuado para</tt>
         </AsphaltRunway>
         <ConcreteRunway>
             <name>Pista de cemento</name>
@@ -1501,7 +1505,7 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
         </Window>
         <MovingWalkway>
             <name>Pasarela movil</name>
-            <description>Crea y extiende pasillos moviles que permiten a los pasajeros moverse alrededor de su aeropuerto mas rapido y con menos esfuerzo. Se mueve en una sola direccion, que puede invertirse en cualquier momento una vez finalizada la construccion.</description>
+            <description>Crea y extiende pasarelas moviles que permiten a los pasajeros moverse alrededor de su aeropuerto mas rapido y con menos esfuerzo. Se mueve en una sola direccion, que puede invertirse en cualquier momento una vez finalizada la construccion.</description>
         </MovingWalkway>
         <DemolishUtility>
             <name>Demoler utilidad</name>
@@ -1530,8 +1534,8 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
             <d8>¿Tienes problemas? Coloca el cursor sobre un Deposito o Puerta para obtener informacion util. En la vista subterranea, haga clic en cualquier objeto subterraneo y los objetos conectados cambiaran de color.</d8>
         </Conveyor>
         <CloneTool>
-            <name>Clone Tool</name>
-            <description>Copy and paste for airports!  Can only be used indoors and several object types are restricted from being cloned.  Click and drag to 'copy' an area then left-click to place the copied area.  Rotate 'clipboard' with rotate key, right-click to reset.</description>
+            <name>Herramienta de clonado</name>
+            <description>¡Copia y pega para aeropuertos!  solo se puede usar en interiores y algunos objetos estan restringidos.  Haga clic y arrastre para 'copiar' un área, luego haga clic izquierdo para colocar el área copiada. Rote el 'portapapeles' con la tecla de rotacion, haga clic con el botón derecho para restablecer.</description>
         </CloneTool>
     </tools>
     <research>
@@ -1673,114 +1677,114 @@ Incluye todos los suministros de construccion, inventario al por menor y cualqui
         </BagHubBoosters>
     </research>
     <staffScheduler>
-        <title>Schedule Editor:</title>
-        <reportName>Staff Deployment</reportName>
-        <tooltipDescription>Allocate staff to manage objects at different times of the day.</tooltipDescription>
-        <delete>Delete</delete>
-        <Rename>Rename</Rename>
-        <Duplicate>Copy staff into</Duplicate>
-        <DuplicateTitle>Copy Staff From...</DuplicateTitle>
-        <schedules>Schedules</schedules>
-        <namingConfig>Name your schedule:</namingConfig>
-        <RenameButton>Rename</RenameButton>
-        <defaultDay>Daytime</defaultDay>
-        <defaultNight>Nighttime</defaultNight>
-        <DeleteWarning>You must have at least one schedule.</DeleteWarning>
-        <DeleteConfirmation>Are you sure you wish to delete this schedule?</DeleteConfirmation>
-        <Create>Create</Create>
-        <DailyManagement>Staff Management Overhead</DailyManagement>
-        <Editing>Editing Schedule:</Editing>
-        <Assigning>Assigned:</Assigning>
-        <editOptions>Edit Options</editOptions>
-        <copy>Copy</copy>
+        <title>Editor de horarios:</title>
+        <reportName>Despliege del personal</reportName>
+        <tooltipDescription>Asigna personal para gestionar objetos a distintas horas del dia.</tooltipDescription>
+        <delete>Borrar</delete>
+        <Rename>Renombrar</Rename>
+        <Duplicate>Copiar personal a</Duplicate>
+        <DuplicateTitle>Copiar personal desde...</DuplicateTitle>
+        <schedules>Horarios</schedules>
+        <namingConfig>Nombre de tu horario:</namingConfig>
+        <RenameButton>Renombrar</RenameButton>
+        <defaultDay>Durante el día</defaultDay>
+        <defaultNight>Durante la noche</defaultNight>
+        <DeleteWarning>Debes tener al menos un horario.</DeleteWarning>
+        <DeleteConfirmation>¿Estas seguro que deesas borrar este horario?</DeleteConfirmation>
+        <Create>Crear</Create>
+        <DailyManagement>Gestión de personal</DailyManagement>
+        <Editing>Editando horario:</Editing>
+        <Assigning>Asignado:</Assigning>
+        <editOptions>Editar opciones</editOptions>
+        <copy>Copiar</copy>
     </staffScheduler>
-    <WelcomeToSimAirport>Welcome to Sim Airport!</WelcomeToSimAirport>
-    <RenameZone>Rename Zone</RenameZone>
+    <WelcomeToSimAirport>¡Bienvenido a Sim Airport!</WelcomeToSimAirport>
+    <RenameZone>Renombrar zona</RenameZone>
     <NewStaffHub>
-        <BusArrivals>Bus Arrivals</BusArrivals>
-        <ManageAdmin>Manage Admin</ManageAdmin>
-        <ManageSchedules>Manage Schedules</ManageSchedules>
+        <BusArrivals>Llegadas de autobus</BusArrivals>
+        <ManageAdmin>Gestionar Admin</ManageAdmin>
+        <ManageSchedules>Gestionar horarios</ManageSchedules>
         <ShortHour>/hr</ShortHour>
-        <WorkmenWarning>You need at least 1!</WorkmenWarning>
-        <TooFewStaff>You need {0} more!</TooFewStaff>
-        <AdminVacant>Vacant</AdminVacant>
-        <AdminFilled>Occupied</AdminFilled>
-        <Hire>Hire</Hire>
-        <Fire>Fire</Fire>
-        <Add>Add Workers</Add>
-        <Remove>Remove Workers</Remove>
-        <HasOffice>Has Office:</HasOffice>
-        <MissingOfficeWarning>Requires Office</MissingOfficeWarning>
-        <Arriving>The new administrator is travelling to work.</Arriving>
-        <Yes>Yes</Yes>
+        <WorkmenWarning>¡Necesitas al menos 1!</WorkmenWarning>
+        <TooFewStaff>¡Necesitas {0} mas!</TooFewStaff>
+        <AdminVacant>Vacante</AdminVacant>
+        <AdminFilled>Ocupado</AdminFilled>
+        <Hire>Contratar</Hire>
+        <Fire>Despedir</Fire>
+        <Add>Añadir trabajadores</Add>
+        <Remove>Eliminar trabajadores</Remove>
+        <HasOffice>Tiene oficina:</HasOffice>
+        <MissingOfficeWarning>Necesita oficina</MissingOfficeWarning>
+        <Arriving>El nuevo administrador se esta dirigiendo al trabajo.</Arriving>
+        <Yes>Si</Yes>
         <No>No</No>
-        <Busy>Busy</Busy>
-        <Idle>Idle</Idle>
-        <Away>Away</Away>
-        <FireHover>This will not fire anyone until you select the green tick.
+        <Busy>Ocupado</Busy>
+        <Idle>Ocioso</Idle>
+        <Away>Fuera</Away>
+        <FireHover>No se despedira a nadie hasta que marques el tick verde.
         
-Hold Shift to remove 5 staff at once!
-Hold Ctrl to remove 10 staff at once!</FireHover>
-        <HireHover>This will not hire anyone new until you select the green tick.
+¡Manten Shift para eliminar a 5 empleados de una vez!
+¡Manten Ctrl para eliminar a 10 empleados de una vez!</FireHover>
+        <HireHover>No se contratara a nadie hasta que marques el tick verde.
         
-Hold Shift to add 5 staff at once!
-Hold Ctrl to remove 10 staff at once!</HireHover>
-        <DeploymentHover>Hold Shift to add or remove 5 at once! Hold Ctrl to add or remove 10 at once!</DeploymentHover>
-        <ConfirmHeading>Confirm</ConfirmHeading>
-        <NoChanges>No changes set.</NoChanges>
-        <ConfirmFire>You are about to fire {0} workers!</ConfirmFire>
-        <ConfirmFireSingleGrammar>You are about to fire a worker!</ConfirmFireSingleGrammar>
-        <ConfirmHire>You are about to hire {0} workers!</ConfirmHire>
-        <ConfirmHireSingleGrammar>You are about to hire a worker!</ConfirmHireSingleGrammar>
-        <Workforce>Staff Hired Now</Workforce>
-        <ScheduleWorkforce>Staff Hired Now/Peak Staff Needed</ScheduleWorkforce>
-        <DailyOverheadHeading>Daily Management Overhead</DailyOverheadHeading>
-        <OverheadTotal>Total for all types</OverheadTotal>
-        <ScheduledStaff>This staff can be scheduled!</ScheduledStaff>
-        <DailyOverhead>Each scheduled staff has a daily management overhead. They save you money by automatically leaving and arriving based on the schedule set.</DailyOverhead>
-        <MissingStaff>You are missing some staff to complete all of the jobs you have scheduled.</MissingStaff>
-        <UnconfirmedChanges>You did not confirm the hiring or firing of staff, are you sure you wish to continue?</UnconfirmedChanges>
-        <Back>Go Back</Back>
-        <Continue>Continue</Continue>
-        <Max>Maximum:</Max>
+¡Manten Shift para contratar a 5 empleados de una vez!
+¡Manten Shift para contratar a 10 empleados de una vez!</HireHover>
+        <DeploymentHover>¡Manten Shift para añadir o eliminar 5 de una vez!, ¡Manten Ctrl para añadir o eliminar 10 de una vez!</DeploymentHover>
+        <ConfirmHeading>Confirmar</ConfirmHeading>
+        <NoChanges>Sin cambios.</NoChanges>
+        <ConfirmFire>¡Estás a punto de despedir {0} trabajadores!</ConfirmFire>
+        <ConfirmFireSingleGrammar>¡Estás a punto de despedir un trabajador!</ConfirmFireSingleGrammar>
+        <ConfirmHire>¡Estás a punto de contratar {0} trabajadores!</ConfirmHire>
+        <ConfirmHireSingleGrammar>¡Estás a punto de contratar un trabajador!</ConfirmHireSingleGrammar>
+        <Workforce>Personal contratado</Workforce>
+        <ScheduleWorkforce>Personal actual contratado/personal necesario</ScheduleWorkforce>
+        <DailyOverheadHeading>Gestión diaria de gastos generales</DailyOverheadHeading>
+        <OverheadTotal>Total para todos los tipos</OverheadTotal>
+        <ScheduledStaff>¡Este personal puede ser programado!</ScheduledStaff>
+        <DailyOverhead>Cada personal programado tiene una gestión diaria de gastos generales. Ellos ahorraran tu dinero automaticamente yendose o viniendo segun tu horario programado.</DailyOverhead>
+        <MissingStaff>Falta personal para completar todos los trabajos que has programado.</MissingStaff>
+        <UnconfirmedChanges>No has confirmado la contratacion o despido de personal, ¿Estas seguro que deseas continuar?</UnconfirmedChanges>
+        <Back>Ir atras</Back>
+        <Continue>Continuar</Continue>
+        <Max>Maximo:</Max>
     </NewStaffHub>
     <NewKitchens>
-        <Overview>Kitchen Overview</Overview>
-        <Missing>Missing</Missing>
-        <ClickDetails>Click for Kitchen Overview!</ClickDetails>
-        <NeedDisplay>Food Cooler OR Food Warmer OR Drink Machine OR Coffee Maker</NeedDisplay>
-        <MealsAvailable>CAN COOK!</MealsAvailable>
-        <MealsServed>CAN SERVE!</MealsServed>
-        <KitchenProblem>PROBLEMS IN KITCHEN!</KitchenProblem>
-        <Storage>No Storage.</Storage>
-        <Appliances>No correct appliances for cooking.</Appliances>
-        <Inventory>Waiting for stock.</Inventory>
-        <Pots>Plates Needing Washing:</Pots>
-        <Preps>At least 3 Prep Carts are recommended for efficiency!</Preps>
-        <Plates>At least 2 Hot Plates are recommended for efficiency!</Plates>
-        <KioskNoKitchen>Assign this to a kitchen in order to fulfill orders!</KioskNoKitchen>
-        <KioskAssigned>Staff assigned now</KioskAssigned>
-        <KioskHired>Max staff at peak</KioskHired>
-        <NOSTOCK>NO STOCK!</NOSTOCK>
-        <LOWSTOCK>LOW STOCK!</LOWSTOCK>
-        <FoodAwaiting>Awaiting Delivery</FoodAwaiting>
-        <Prepping>Prepping</Prepping>
-        <Cooking>Oven Contents</Cooking>
-        <Shelf>Shelf</Shelf>
-        <Ready>READY</Ready>
-        <Burning>BURNING</Burning>
-        <Empty>Empty</Empty>
-        <MoneyHour>Revenue in current hour</MoneyHour>
-        <FoodWarning>You have zero food stock! Meals cannot be prepared.</FoodWarning>
-        <StockTip>Deliveries happen at midnight by default.</StockTip>
-        <CafeChairs>Requires any type of cafe chair or fancy chair.</CafeChairs>
+        <Overview>Vista general de la cocina</Overview>
+        <Missing>Perdido</Missing>
+        <ClickDetails>¡Click para vista general de la cocina!</ClickDetails>
+        <NeedDisplay>Exhibidor de comida fría O exhibidor de comida caliente O maquina de bebidas O cafetera</NeedDisplay>
+        <MealsAvailable>¡SE PUEDE COCINAR!</MealsAvailable>
+        <MealsServed>¡SE PUEDE SERVIR!</MealsServed>
+        <KitchenProblem>¡PROBLEMAS EN LA COCINA!</KitchenProblem>
+        <Storage>Sin almacenamiento.</Storage>
+        <Appliances>Sin accesorios correctos para cocinar.</Appliances>
+        <Inventory>Esperando stock.</Inventory>
+        <Pots>Los platos necesitan lavarse:</Pots>
+        <Preps>¡Se recomiendan al menos 3 Carros de preparacion para mejorar la eficencia!</Preps>
+        <Plates>¡Se recomiendan al menos 2 platos calientes para mejorar la eficencia!</Plates>
+        <KioskNoKitchen>¡Asigna esto a una cocina para cumplir los pedidos!</KioskNoKitchen>
+        <KioskAssigned>Personal actual asignado</KioskAssigned>
+        <KioskHired>Personal maximo</KioskHired>
+        <NOSTOCK>¡SIN STOCK!</NOSTOCK>
+        <LOWSTOCK>¡STOCK BAJO!</LOWSTOCK>
+        <FoodAwaiting>Esperando entrega</FoodAwaiting>
+        <Prepping>Preparando</Prepping>
+        <Cooking>Contenido de horno</Cooking>
+        <Shelf>Parrilla</Shelf>
+        <Ready>LISTO</Ready>
+        <Burning>EN LLAMAS</Burning>
+        <Empty>Vacio</Empty>
+        <MoneyHour>Ingresos en la hora actual</MoneyHour>
+        <FoodWarning>¡No tienes stock de comida! Las comidas no se prepararan.</FoodWarning>
+        <StockTip>Por defecto los repartos se haran a medianoche.</StockTip>
+        <CafeChairs>requiere cualquier tipo de silla de cafeteria o silla de lujo.</CafeChairs>
     </NewKitchens>
     <NewStores>
-        <GoodsWarning>You have zero stock of products!</GoodsWarning>
-        <StoreHover>Click to rename your store!</StoreHover>
-        <CashRegisterWarning>Must be placed in a {0} to sell products or a {1} to sell food!</CashRegisterWarning>
-        <SupplyBox>Retail goods</SupplyBox>
-        <Popularity>Popularity:</Popularity>
-        <Profit>Profit:</Profit>
+        <GoodsWarning>¡No tienes stock de productos!</GoodsWarning>
+        <StoreHover>¡Clic para renombrar tu tienda!</StoreHover>
+        <CashRegisterWarning>¡Debe ser colocado en {0} para vender productos o en {1} para vender comida!</CashRegisterWarning>
+        <SupplyBox>Productos de tiendas</SupplyBox>
+        <Popularity>Popularidad:</Popularity>
+        <Profit>Beneficio:</Profit>
     </NewStores>
 </UI>
