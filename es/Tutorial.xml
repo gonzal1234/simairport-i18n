@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Tutorial>
     <Titles>
         <EasyTutorial1>Las bases de SimAirport</EasyTutorial1>
@@ -268,7 +268,7 @@ Si tienes mas de 4 altavcozes o mas de 4 puertas, construye un amplificador para
         <CompletedPATitle>Servicios de reabastecimiento</CompletedPATitle>
         <CompletedPA>¡Tu sistema de megafonia deberia estar funcionando!
 
-Ahra, veremos los servicios de repostaje.
+Ahora, veremos los servicios de repostaje.
 
 Reabastecer aeroplanos ayuda a conseguir ingresos extra a tu aeropuerto, aumentar la satisfaccion de las aerolineas y potencialmente conseguir nuevos contratos.</CompletedPA>
         <FuelDepotTitle>Conseguir el combustible</FuelDepotTitle>
@@ -296,10 +296,10 @@ En el futuro, es posible que quieras actualizar las puertas de sus aeronaves par
         <Finale>¡Ya estan funcionando los sistemas de megafonia y de combustible!</Finale>
     </FuelPA>
     <Scheduling>
-        <IntroductionTitle>Scheduling Workers Tutorial</IntroductionTitle>
-        <Introduction>Welcome to the Scheduling Workers Tutorial!
+        <IntroductionTitle>Tutorial del horario de trabajadores</IntroductionTitle>
+        <Introduction>¡Bienvenido al tutorial del horario de trabajadores!
         
-Here you'll learn how to assign scheduled operation times for objects and zones. This is useful as it allows you to save costs on workers during quiet times, or increase the number of workers during busy periods.</Introduction>
+Aquí aprenderás cómo asignar tiempos de operación programados para objetos y zonas. Esto es útil, ya que le permite ahorrar el coste de trabajadores durante los períodos de inactividad o aumentar la cantidad de trabajadores durante los períodos de mayor actividad.</Introduction>
         <HowItWorks>It works by assigning schedules to specific objects and zones, rather than per worker. This is so that you could, as an example, set chefs to work in terminal 1's kitchen in the morning, then send them to terminal 2's in the afternoon to prepare their orders.
         
 Or you could have staff who work at ticketing desks as people arrive by transport, then move them onto gate agent desks when their flights arrive.</HowItWorks>
@@ -327,15 +327,15 @@ Most can only have a maximum of 1 staff (hover over each object to see the limit
         <SeeIt>To see the schedules in action, let time pass and watch them arrive and leave at the various times.
         
 You will need a drop off and pickup zone for this to happen, because workers arrive and leave via transport. The more schedules you add, the more you can fine tune the coordination of your workers.</SeeIt>
-        <EndTitle>Tutorial Completed</EndTitle>
+        <EndTitle>Tutorial Completado</EndTitle>
         <End>You can now schedule when objects will be ran by staff, and get finer control over your airport.</End>
     </Scheduling>
     <FoodStores>
-        <IntroductionTitle>Food and Shopping Tutorial</IntroductionTitle>
-        <Introduction>Welcome to the food and shopping tutorial! This will cover how to build cafes, kitchens, and stores; and how pax choose where to eat and shop.
+        <IntroductionTitle>Tutorial de comidas y compras</IntroductionTitle>
+        <Introduction>¡Bienvenido al tutorial de comidas y compras!, aqui se tratara como construir cafeterias, cocinas y tiendas y como donde los pasajeros elegiran donde comer y comprar.
 
-This can be profitable for your airport while making passengers happier.</Introduction>
-        <FoodTitle>Food and Drinks</FoodTitle>
+Esto puede ser rentable para tu aeropuerto mientras hace felices a tus pasajeros.</Introduction>
+        <FoodTitle>Comida y bebidas</FoodTitle>
         <Food>Pax will get hungry, and there are various types of food to help this.
         
 First there are food vending machines, which offer the least satisfaction, and can even make your passengers a little frustrated! These are only suitable for small airports; however, a basic food offering is better than no food at all!</Food>
@@ -346,7 +346,7 @@ There are different types of higher quality foods and drinks available. Each pas
         <FoodTypes>Each kiosk specializes in a food or drink type, and you can hover over their build menu options to find out! Only people who like pizza will go to the pizza kiosk, for example. The bar sells multiple types of drinks.
 
 The cafe is unique as it sells the food types based on what displays and dispensers you add to it. While it is true that the cafe can serve every food and drink type in much less floor space than the kiosks, this can also make it extremely busy.</FoodTypes>
-        <BuildingTitle>Building Kiosks and Cafes</BuildingTitle>
+        <BuildingTitle>Construyendo quioscos y cafeterias</BuildingTitle>
         <Building>To build a kiosk works the same as any other object. Once built, you will need to assign it to a kitchen, which also works the same as any other assignment in-game by clicking on it, clicking Assign To, and then selecting the kitchen zone.</Building>
         <BuildingObjective>Zone a kitchen and get it functioning.
 Build a pizza joint in the terminal and assign it to the kitchen zone.</BuildingObjective>
@@ -385,7 +385,7 @@ There is no limit to how many times they can browse or even a limit on how much 
         <Customizing>Feel free to sell one product type per store or to sell many products, it is up to you!
         
 You can also customize the store names (and cafe names too) by clicking on them and selecting Rename!</Customizing>
-        <StoresFinaleTitle>Finished Tutorial</StoresFinaleTitle>
+        <StoresFinaleTitle>Tutorial finalizado</StoresFinaleTitle>
         <StoresFinale>You can now deal with hunger, thirst, and boredom in your airports with cafes, kiosks, vending machines, and stores.
         
 You did it all to make more money... I mean, it's all to make passengers happier.</StoresFinale>
